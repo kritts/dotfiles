@@ -1,0 +1,52 @@
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" 
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"
+"Always show current position
+set ruler
+
+" Height of the command bar
+set cmdheight=2
+
+" Practical Vim's recommendation
+set nocompatible
+
+" Highlight current line
+" set cursorline
+
+" Spell check
+" pressing \ss will toggle and untoggle spell checking
+map <leader>ss :setlocal spell!<cr>
+"
+"
+" Set utf8 as standard encoding and en_US as the standard language
+set encoding=utf8
+
+" Use spaces instead of tabs
+set expandtab
+
+" Be smart when using tabs 
+set smarttab
+
+" 1 tab == 4 spaces
+set shiftwidth=4
+set tabstop=4
+
+" ?
+set hlsearch
+
+"Color scheme
+syntax on
+":colorscheme obsidian2
+colorscheme desert
+
+" Show line numbers
+set number
+
+" 
+inoremap jk <ESC>
+
+" Filetype highlighting
+filetype on
+filetype plugin indent on
+syntax on
