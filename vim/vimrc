@@ -12,7 +12,7 @@ set cmdheight=2
 set nocompatible
 
 " Highlight current line
-" set cursorline
+set cursorline
 
 " Spell check
 " pressing \ss will toggle and untoggle spell checking
@@ -24,8 +24,6 @@ set encoding=utf8
 
 " Use spaces instead of tabs
 set expandtab
-
-" Be smart when using tabs 
 set smarttab
 
 " 1 tab == 4 spaces
@@ -50,3 +48,11 @@ inoremap jk <ESC>
 filetype on
 filetype plugin indent on
 syntax on
+
+" Case-smart searching 
+set ignorecase
+set smartcase
+
+let &colorcolumn=join(range(81,999),",")
+highlight ColorColumn ctermbg=235 guibg=#2c2d27
+
