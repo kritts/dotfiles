@@ -11,4 +11,7 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 #
 #  # Customize to your needs...
-#  
+
+
+alias ls="ls -G"
+alias ll="ls -laF"
