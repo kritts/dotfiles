@@ -302,7 +302,7 @@ elseif g:solarized_termcolors == 256
     let s:vmode       = "cterm"
     let s:base03      = "234"
     let s:base02      = "235"
-    let s:base01      = "239"
+    let s:base01      = "48"
     let s:base00      = "240"
     let s:base0       = "244"
     let s:base1       = "245"
@@ -538,7 +538,7 @@ endif
 
 exe "hi! Normal"         .s:fmt_none   .s:fg_base0  .s:bg_back
 
-exe "hi! Comment"        .s:fmt_ital   .s:fg_base01 .s:bg_none
+exe "hi! Comment"        .s:fmt_ital   .s:fg_red .s:bg_none
 "       *Comment         any comment
 
 exe "hi! Constant"       .s:fmt_none   .s:fg_cyan   .s:bg_none
