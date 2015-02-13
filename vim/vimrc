@@ -1,5 +1,5 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" 
+" Krittika D'Silva's vimrc (kdsilva@uw.ed)
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "
 "Always show current position
@@ -34,7 +34,9 @@ set tabstop=4
 set hlsearch
 
 "Color scheme
-colorscheme desert
+colorscheme solarized 
+set guifont=Monaco:h12
+let g:solarized_termcolors=256
 
 " Show line numbers
 set number
