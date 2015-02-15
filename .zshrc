@@ -29,4 +29,19 @@ alias path='echo -e ${PATH//:/\\n}'
 alias vi=vim
 alias ping='ping -c 5'
 alias browser=chrome
- 
+
+
+# Setting Default Editor
+export EDITOR=/usr/bin/vim
+
+# Adding in Android SDK
+export ANDROID_SDK_ROOT="/usr/local/Cellar/android-sdk/23.0.2"
+export ANDROID_HOME=/usr/local/opt/android-sdk
+
+# Adding in Android NDK 
+export ANDROID_NDK=/usr/local/Cellar/android-ndk/r10b
+export NDK_ROOT=/user/local/Cellar/android-ndk/r10b
+export PATH=$PATH:$NDK_ROOT
+
+export PROMPT_COMMAND='echo -ne "\033]0;${PWD/#$HOME/~}\007"'
+
