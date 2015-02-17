@@ -1,1 +1,0 @@
-/Users/kdsilva/.vim/vimrc
