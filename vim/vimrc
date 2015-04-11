@@ -1,7 +1,11 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Krittika D'Silva's vimrc (kdsilva@uw.ed)
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"
+
+
+"Fix backspace problems 
+set backspace=2"
+
 "Always show current position
 set ruler
 
