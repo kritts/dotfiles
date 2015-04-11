@@ -4,7 +4,8 @@
 
 
 "Fix backspace problems 
-set backspace=2"
+set backspace=indent,eol,start
+
 
 "Always show current position
 set ruler
