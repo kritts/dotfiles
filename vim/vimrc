@@ -9,7 +9,14 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 " let Vundle manage Vundle, required
-"Plugin 'gmarik/Vundle.vim'
+Plugin 'gmarik/Vundle.vim'
+
+
+"Better whitespace
+Bundle 'ntpeters/vim-better-whitespace' 
+" highlight ExtraWhitespace ctermbg=blue // TODO: change to different color
+
+
 
 " If there is a slash in the bundle-name
 " it automatically installs from GitHub.
@@ -85,7 +92,7 @@ set backspace=indent,eol,start
 set ruler
 
 " Height of the command bar
-set cmdheight=2
+set cmdheight=2    
 
 
 " Use spaces instead of tabs
