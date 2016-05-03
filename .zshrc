@@ -11,7 +11,7 @@ fi
 
 alias ls="ls -G"
 alias ll="ls -laF"
-
+alias serve='python -m SimpleHTTPServer 8888'
 alias grep="grep --color"
 alias egrep="egrep --color"
 # https://github.com/nvbn/thefuck
@@ -27,9 +27,8 @@ alias path='echo -e ${PATH//:/\\n}'
 alias vi=vim
 alias ping='ping -c 5'
 alias browser=chrome
-alias rm='nocorrect rm'
-
-
+alias dna='ssh kdsilva@sampa-gw.cs.washington.edu'
+alias roomba='ssh cse@roomba'
 # Setting Default Editor
 export EDITOR=/usr/local/bin/vim
 
@@ -43,3 +42,4 @@ export NDK_ROOT=/user/local/Cellar/android-ndk/r10b
 export PATH=$PATH:$NDK_ROOT
 
 export PROMPT_COMMAND='echo -ne "\033]0;${PWD/#$HOME/~}\007"'
+export GOPATH=~/Dropbox/_winter_2016/DISTRIBUTED_SYSTEMS/labs/452-labs
