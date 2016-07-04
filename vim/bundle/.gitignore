@@ -1,0 +1,6 @@
+# We want to ignore everything in this folder EXCEPT for this file. Vundle is
+# going to manage our plugins and we want it to store things in vim/bundle. We
+# want to include this empty directory to try and avoid confusion during new
+# clones
+*
+!.gitignore
